@@ -1,0 +1,17 @@
+.comment {
+  font-family: "Marker Felt", fantasy;
+  font-size: 30px;
+  color: hsla(0, 0%, 0%, 0.342);
+  animation-name: moveToTop;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveToTop {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

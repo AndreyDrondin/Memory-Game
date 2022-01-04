@@ -1,0 +1,32 @@
+.h1 {
+  font-family: "Marker Felt", fantasy;
+  font-size: 40px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: hsl(0, 0%, 0%);
+  display: table;
+  width: auto;
+  margin: 15px auto;
+  letter-spacing: 2px;
+}
+
+.letter {
+  color: #fff;
+}
+
+.h1:before {
+  content: "";
+  position: absolute;
+  background: rgb(81, 227, 213);
+  height: 45px;
+  width: 35px;
+  left: -3%;
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  z-index: -1;
+}

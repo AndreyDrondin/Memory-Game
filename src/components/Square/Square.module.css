@@ -1,0 +1,32 @@
+.beforeClick {
+  font-family: "Marker Felt", fantasy;
+  margin: 10px;
+  font-size: 0px;
+  background-color: #9a9ab856;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  transform: rotateY(-180deg);
+}
+
+.beforeClick:hover {
+  background-color: rgba(154, 154, 184, 0.187);
+}
+
+.afterClick {
+  font-size: 40px;
+  background-color: rgb(81, 227, 213);
+  transform: rotateY(0deg);
+  transition: transform 0.6s;
+}
+
+.afterClick:hover {
+  background-color: rgb(81, 227, 213);
+}
